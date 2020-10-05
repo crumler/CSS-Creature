@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+section {
+  position: absolute;
+  left: 40%;
+}
+
+h1 {
+  font-family: "Roboto Slab", open-sans;
+  text-align: center;
+}
+
+.wrapperMargin {
+  padding: 6px;
+}
+
+.head {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  border: solid 1px black;
+  background-color: #158bdf;
+  border-radius: 125px;
+  z-index: 1;
+  left: 30px;
+}
+
+.face {
+  position: relative;
+  width: 220px;
+  height: 155px;
+  border: solid 0px #158bdf;
+  background-color: #feef93;
+  border-radius: 0 0 145px 145px;
+  z-index: 2;
+  top: 88px;
+  left: 10px;
+}
+
+.leftEyeball{
+  z-index: 3;
+  position: relative;
+  height: 75px;
+  width: 75px;
+  border:solid 0px black;
+  background-color: white;
+  top: -66px;
+  left: 40px;
+  border-radius: 125px;
+}
+
+.leftPupil {
+  position: relative;
+  z-index: 4;
+  height: 65px;
+  width: 35px;
+  border: solid 0px black;
+  background-color: #303cd1;
+  border-radius: 125px;
+  top: 5px;
+  right: -25px;
+}
+
+.rightEyeball {
+  z-index: 3;
+  position: relative;
+  height: 75px;
+  width: 75px;
+  border: solid 0px black;
+  background-color: white;
+  top: -140px;
+  left: 128px;
+  border-radius: 125px;
+}
+
+.rightPupil {
+  z-index: 4;
+  position: relative;
+  height: 65px;
+  width: 35px;
+  border: solid 0px black;
+  background-color: #303cd1;
+  border-radius: 125px;
+  top: 5px;
+  right: -15px;
+}
+
+.mouth {
+  z-index: 3;
+  position: relative;
+  height: 5px;
+  width: 100px;
+  border: solid 0px black;
+  background-color: black;
+  border-radius: 125px;
+  top: -110px;
+  left: 70px;
+}
+
+.nose {
+  z-index: 3;
+  position: relative;
+  height: 27px;
+  width: 9px;
+  background-color: black;
+  border-radius: 125px;
+  left: 118px;
+  top: -160px;
+}
+
+.helmetPlate {
+  z-index: 2;
+  position: relative;
+  height: 60px;
+  width: 50px;
+  border-radius: 125px;
+  background-color: skyblue;
+  top: -330px;
+  left: 97px;
+  
+}
+
+.body {
+  height: 320px;
+  width: 300px;
+  position: relative;
+  border: solid 1px black;
+  border-radius: 40px 40px 0 0;
+  background-color: skyblue;
+  left: 0px;
+  top: -20px;
+  z-index: -1;
+}
+
+.leftArm {
+  position: relative;
+  height: 300px;
+  width: 55px;
+  border: solid 1px black;
+  border-radius: 10px 10px 10px 10px;
+  background-color: skyblue;
+  top: -320px;
+  left: -110px;
+  transform: rotate(50deg);
+  z-index: 1;
+}
+
+.rightArm {
+  position: relative;
+  height: 300px;
+  width: 55px;
+  border: solid 1px black;
+  border-radius: 10px 10px 10px 10px;
+  background-color: skyblue;
+  top: -710px;
+  left: 390px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+.waist {
+  position: relative;
+  width: 180px;
+  height: 80px;
+  border: solid 1px black;
+  background-color: #158bdf;
+  top: -706px;
+  left: 61px;
+  border-radius: 30px 30px 0 0;
+}
+
+.megaBlaster {
+  position: relative;
+  width: 140px;
+  height: 80px;
+  border: solid 1px black;
+  background-color: #158bdf;
+  left: -40px;
+  top: -100px;
+  transform: rotate(90deg);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.rightHand {
+  position: relative;
+  width: 80px;
+  height: 70px;
+  border: solid 1px black;
+  background-color: #158bdf;
+  left: -13px;
+  top: 233px;
+  border-radius: 125px;
+}
